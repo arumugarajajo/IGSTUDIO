@@ -3,6 +3,9 @@
     height: 425px;
     margin: 100px auto;
 }
+.ourteam h2{
+    font-size: 54px;
+}
 .profileContainer{
     align-items: center;
     justify-content: center;
