@@ -1,0 +1,86 @@
+.happyClient {
+    margin: auto;
+    max-width: 1137px;
+    max-height: 626px;
+    font-weight: 600;
+    color: white;
+    justify-content: space-between;
+  }
+  .topPortion{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    max-width: 1137px;
+    width: 100%;
+  }
+  .topPortion h2{
+    max-width: 374px;
+    max-height: 154px;
+    font-size: 54px;
+    width: 374px;
+  }
+  .arrowPortion{
+    display: flex;
+    width: 200px;
+    height: 91.85px;
+    margin: 0 20px;
+  }
+  .arrow {
+    position: relative;
+    width: 90.61px;
+    height: 90.61px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+  }
+  
+  .img {
+    max-width: 38.48px;
+    max-height: 38.48px;
+    border-radius: 100%;
+    background-color: yellow;
+    padding: 10px;
+    cursor: pointer;
+  }
+ .carousel{
+    display: flex;
+
+ } 
+  .grid{
+    margin: 10px;
+    width: 359px;
+    height: 368px;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+.grid:hover{
+background-color: rgba(46, 46, 46, 1);
+}
+.imgcontainer{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 105px;
+    height: 102px;
+    border-radius: 100%;
+}
+
+.imgcontainer img {
+    width: 105px;
+    height: 102px;
+    margin: 20px;
+}
+.grid h5,h6,p{
+    align-items: start;
+    text-align: start;
+    margin-left: 10px;
+    padding-left: 20px;   
+}
+.grid p{
+    font-weight: 500;
+    font-size: 14px;
+    opacity: 30%; 
+    padding-bottom: 10px;
+}

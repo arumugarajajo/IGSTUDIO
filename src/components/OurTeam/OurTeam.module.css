@@ -1,0 +1,51 @@
+.ourteam{
+    width: 1156px;
+    height: 425px;
+    margin: 100px auto;
+}
+.profileContainer{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 1156px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10px auto;
+}
+.teamProfile{
+    width: 344px;
+    height: 109px;
+    border-radius: 15px;
+    display: flex;
+    justify-content:start;
+    text-align: left;
+    align-items: center;
+    float: left;
+    cursor: pointer;
+    margin:20px;
+}
+.teamProfile:hover{
+    background: rgba(227, 183, 72, 1);
+    color: black;
+}
+.image{
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    margin-left: 10px;
+    align-items: start;
+    justify-content: center;
+    text-align: start;
+    font-weight: 600;
+}
+.text p{
+    justify-content: center;
+    align-items: start;
+    text-align: start;
+    margin-top: -10px;
+    margin-left: -20px;
+    opacity: 40%;
+}

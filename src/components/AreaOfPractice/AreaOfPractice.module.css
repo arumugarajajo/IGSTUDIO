@@ -1,0 +1,41 @@
+.AreaOfPractice {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.AreaOfPractice h2 {
+  font-weight: 600;
+  font-size: 54px;
+  width: 448px;
+  margin: 0 auto 20px;
+}
+
+.flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.imageWithText {
+  position: relative;
+  width: calc(auto);
+  text-align: center;
+}
+
+.imageWithText img {
+  max-width: 100%;
+}
+
+.imageWithText span {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 18px;
+  font-weight: 600;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

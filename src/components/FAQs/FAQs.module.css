@@ -1,0 +1,83 @@
+/* FAQs.module.css */
+
+.faqs {
+    width: 1140px;
+    margin: auto;
+    display: flex;
+  }
+  
+  .left {
+    align-items: start;
+    text-align: start;
+    padding: 20px;
+  }
+  
+  .left h2,p{
+    align-items: start;
+    padding: 0px 20px;
+    font-weight: 500;
+  }
+  .left p{
+    opacity: 40%;
+    width: 420px;
+  }
+  
+  .accordion {
+    max-width: 600px;
+    margin: 10px auto;
+    border-radius: 15px;
+    background: rgba(29, 29, 29, 1) !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .accord {
+    border-radius: 15px !important;
+    border: 1px solid #ffffff56;
+    background: rgba(29, 29, 29, 1) !important;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .typo {
+    width: 100%;
+    text-align: left;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .typo1{
+    opacity: 40%;
+    color: white;
+  }
+  
+  #panel1a-header,
+  #panel2a-header,
+  .ExpandMoreIcon {
+    background-color: yellow;
+    color: black;
+    border-radius: 15px;
+  }
+  
+  .MuiAccordionSummary-root.Mui-expanded {
+    color: #fff;
+    background-color: #121212;
+    border-radius: 15px;
+    border: 1px solid #fff;
+  }
+  
+  .MuiAccordionDetails-root {
+    background-color: black;
+    color: black;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  
+  @media screen and (max-width: 720px) {
+    .accordion {
+      width: 300px;
+    }
+  }
+  
