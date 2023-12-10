@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import style from "./NavbarWithProfileContainer.module.css";
 import logo from "../../Assets/logo.png";
 import message from "../../Assets/message.png";
@@ -6,6 +6,11 @@ import Button from "../../components/Button/Button";
 import profile from "../../Assets/profile.png";
 import bg from "../../Assets/bg.png";
 function NavbarWithProfileContainer() {
+  const [showList, setShowList] = React.useState(false);
+
+  const toggleList = () => {
+    setShowList(!showList);
+  };
   return (
     <div className={style.wrapper}>
       <div className={style.logoNavbar}>
@@ -14,11 +19,17 @@ function NavbarWithProfileContainer() {
           <span>IGSTUDIO</span>
         </div>
         <div className={style.navbarLi}>
-          <ul>
-            <li>Home</li>
-            <li>Attorneys</li>
-            <li>Practice Areas</li>
-            <li>About Us</li>
+          <ul onClick={toggleList}>
+            <li>
+              <i className="fas fa-home"></i>
+            </li>
+            {showList && (
+              <>
+                <li>Attorneys</li>
+                <li>Practice Areas</li>
+                <li>About Us</li>
+              </>
+            )}
           </ul>
         </div>
         <div className={style.navtop}>
@@ -44,7 +55,7 @@ function NavbarWithProfileContainer() {
           </div>
         </div>
         <div className={style.rightPortion}>
-        <div className={style.rightprofileContainer}>
+          <div className={style.rightprofileContainer}>
             <img src={profile} alt="profile" />
           </div>
         </div>
